@@ -1,0 +1,127 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+/* Global Styles */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+body {
+    font-family: arcade, sans-serif;
+}
+
+h3 {
+    font-size: 53px;
+    margin: auto;
+}
+
+@font-face {
+    font-family: arcade;
+    src: url(ARCADECLASSIC.ttf);
+}
+
+.main {
+    margin-top: 5%;
+}
+.image {
+    text-align: center;
+    display: block;
+}
+
+.mainButton:hover{
+    animation:blinkingText 0.8s infinite;
+    border: none;
+}
+
+.mainButton:active {
+    color: red;
+    border: none;
+}
+
+.mainButton:focus {
+    outline: 0;
+}
+.btn-group button {
+    font-family: arcade;
+    color: black;
+    font-size: 35px;
+    width: 35%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    display: block;
+    background: none;
+    border: none;
+}
+
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: transparent; }
+    50%{    color: #000; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
+
+.sideBar {
+    height: 15%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.8s; /* 0.5 second transition effect to slide in the sidenav */
+    margin-top: 20%;
+    margin-left: 0%;
+}
+
+/* The navigation menu links */
+.sideBar a {
+    padding: 8px 8px 8px 32px;
+    padding-top: 10%;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.5s;
+
+}
+
+/* When you mouse over the navigation links, change their color */
+.sideBar a:hover {
+    color: #f1f1f1;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+.main {
+    transition: margin-left .8s;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sideBar {padding-top: 15px;}
+    .side a {font-size: 18px;}
+}
+
+#sideBar1{
+    background-color: #E03A3E;
+    margin-top: 15%;
+}
+
+#sideBar2{
+    background-color: #FFB900;
+    margin-top: 24.5%;
+}
+
+#sideBar3{
+    background-color: #61BB46;
+    margin-top: 34.5%;
+}
+
+#sideBar4{
+    background-color: #009DDc;
+    margin-top: 44.5%;
+}
+
