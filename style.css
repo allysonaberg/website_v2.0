@@ -65,7 +65,7 @@ h3 {
 
 .sideBar {
     height: 15%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
+    width: 0%; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -96,7 +96,7 @@ h3 {
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 .main {
-    transition: margin-left .8s;
+    transition: margin-left 1s;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
@@ -124,4 +124,3 @@ h3 {
     background-color: #009DDc;
     margin-top: 44.5%;
 }
-
