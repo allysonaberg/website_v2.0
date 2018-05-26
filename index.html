@@ -57,53 +57,45 @@
 /* Set the width of the side navigation to 250px */
 function projects() {
 
-    if (document.getElementById("sideBar1").style.width == "470px"){
+    if (document.getElementById("sideBar1").style.width == "40%"){
         closeProjects()
     }
     else {
         document.getElementById("projectsButton").style.color = "red";
-        document.getElementById("sideBar1").style.width = "470px";
-        document.getElementById("sideBar2").style.width = "570px";
-        document.getElementById("sideBar3").style.width = "370px";
-        document.getElementById("sideBar4").style.width = "510px";
-        document.getElementById("main").style.marginLeft = "350px";
+        document.getElementById("contactButton").style.color = "black";
+        document.getElementById("sideBar1").style.width = "40%";
+        document.getElementById("sideBar2").style.width = "46%";
+        document.getElementById("sideBar3").style.width = "37%";
+        document.getElementById("sideBar4").style.width = "51%";
+        document.getElementById("main").style.marginLeft = "35%";
     }
 }
 
 /* Set the width of the side navigation to 0 */
 function closeProjects() {
     document.getElementById("projectsButton").style.color = "black";
+    document.getElementById("contactButton").style.color = "black";
     document.getElementById("main").style.marginLeft = "0%";
-    document.getElementById("sideBar1").style.width = "0";
-    document.getElementById("sideBar2").style.width = "0";
-    document.getElementById("sideBar3").style.width = "0";
-    document.getElementById("sideBar4").style.width = "0";
+    document.getElementById("sideBar1").style.width = "0%";
+    document.getElementById("sideBar2").style.width = "0%";
+    document.getElementById("sideBar3").style.width = "0%";
+    document.getElementById("sideBar4").style.width = "0%";
 
 }
 
 function contact() {
 
-    if (document.getElementById("sideBar1").style.width == "70px"){
+    if (document.getElementById("sideBar2").style.width == "35%"){
         closeProjects()
     }
     else {
-        document.getElementById("projectsButton").style.color = "red";
-        document.getElementById("sideBar1").style.width = "70px";
-        document.getElementById("sideBar2").style.width = "90px";
-        document.getElementById("sideBar3").style.width = "60px";
-        // document.getElementById("sideBar4").style.width = "510px";
-        document.getElementById("main").style.marginLeft = "10px";
+        closeProjects()
+        document.getElementById("contactButton").style.color = "red";
+        document.getElementById("projectsButton").style.color = "black";
+        document.getElementById("sideBar2").style.width = "35%";
+        document.getElementById("sideBar2").
+        document.getElementById("main").style.marginLeft = "5%";
     }
 }
 
-/* Set the width of the side navigation to 0 */
-function closeContacts() {
-    document.getElementById("projectsButton").style.color = "black";
-    document.getElementById("main").style.marginLeft = "0%";
-    document.getElementById("sideBar1").style.width = "0";
-    document.getElementById("sideBar2").style.width = "0";
-    document.getElementById("sideBar3").style.width = "0";
-    document.getElementById("sideBar4").style.width = "0";
-
-}
 </script>

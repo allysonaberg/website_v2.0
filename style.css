@@ -64,8 +64,8 @@ h3 {
 }
 
 .sideBar {
-    height: 15%; /* 100% Full-height */
-    width: 0%; /* 0 width - change this with JavaScript */
+    height: 7em; /* 100% Full-height */
+    width: 0em; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -73,14 +73,14 @@ h3 {
     background-color: #111; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     transition: 0.8s; /* 0.5 second transition effect to slide in the sidenav */
-    margin-top: 20%;
+    margin-top: 3em;
     margin-left: 0%;
 }
 
 /* The navigation menu links */
 .sideBar a {
-    padding: 8px 8px 8px 32px;
-    padding-top: 10%;
+    padding-left:1%;
+    padding-top: 3.4em;
     text-decoration: none;
     font-size: 25px;
     color: white;
@@ -106,21 +106,21 @@ h3 {
 }
 
 #sideBar1{
-    background-color: #E03A3E;
-    margin-top: 15%;
+    background-color: #FFB900 ;
+    margin-top: 10em;
 }
 
 #sideBar2{
-    background-color: #FFB900;
-    margin-top: 24.5%;
+    background-color: #E03A3E;
+    margin-top: 17em;
 }
 
 #sideBar3{
     background-color: #61BB46;
-    margin-top: 34.5%;
+    margin-top: 24em;
 }
 
 #sideBar4{
     background-color: #009DDc;
-    margin-top: 44.5%;
+    margin-top: 31em;
 }
